@@ -1,0 +1,130 @@
+# Shared Postgres instance for custom homelab apps (chores, reminders, emailmatrix).
+#
+# NOT shared with Immich — Immich runs its own postgres with pgvector/vectorchord
+# (specialized for AI vector search). This one is vanilla Postgres.
+#
+# Pattern for adding an app: create a new database + user inside this Postgres
+# instance. Each app owns its own database; no cross-app data leakage.
+#
+# Deploy via:  ../deploy.sh   (handles envsubst, secret creation, rollout wait)
+# Variables:   HOMELAB_NAMESPACE, POSTGRES_IMAGE, POSTGRES_TAG
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: shared-postgres-pvc
+  namespace: ${HOMELAB_NAMESPACE}
+spec:
+  accessModes: [ReadWriteOnce]
+  storageClassName: local-path
+  resources:
+    requests:
+      storage: 20Gi
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shared-postgres-init
+  namespace: ${HOMELAB_NAMESPACE}
+data:
+  init.sh: |
+    #!/bin/bash
+    set -e
+
+    psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "postgres" <<-EOSQL
+      -- chores app (kids task tracker)
+      CREATE USER kidstasks WITH PASSWORD '${KIDSTASKS_PASSWORD}';
+      CREATE DATABASE kidstasks OWNER kidstasks;
+      GRANT ALL PRIVILEGES ON DATABASE kidstasks TO kidstasks;
+
+      -- email matrix app
+      CREATE USER emailmatrix WITH PASSWORD '${EMAILMATRIX_PASSWORD}';
+      CREATE DATABASE emailmatrix OWNER emailmatrix;
+      GRANT ALL PRIVILEGES ON DATABASE emailmatrix TO emailmatrix;
+
+      -- reminders app
+      CREATE USER reminders WITH PASSWORD '${REMINDERS_PASSWORD}';
+      CREATE DATABASE reminders OWNER reminders;
+      GRANT ALL PRIVILEGES ON DATABASE reminders TO reminders;
+    EOSQL
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: shared-postgres
+  namespace: ${HOMELAB_NAMESPACE}
+spec:
+  serviceName: shared-postgres
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shared-postgres
+  template:
+    metadata:
+      labels:
+        app: shared-postgres
+    spec:
+      containers:
+        - name: postgres
+          image: ${POSTGRES_IMAGE}:${POSTGRES_TAG}
+          envFrom:
+            - secretRef:
+                name: shared-postgres-secret
+          env:
+            - name: POSTGRES_INITDB_ARGS
+              value: "--data-checksums"
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
+          ports:
+            - name: postgres
+              containerPort: 5432
+          volumeMounts:
+            - name: data
+              mountPath: /var/lib/postgresql/data
+            - name: init
+              mountPath: /docker-entrypoint-initdb.d/init.sh
+              subPath: init.sh
+              readOnly: true
+          readinessProbe:
+            exec:
+              command: ["pg_isready", "-U", "postgres"]
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 15
+            failureThreshold: 5
+          livenessProbe:
+            exec:
+              command: ["pg_isready", "-U", "postgres"]
+            initialDelaySeconds: 60
+            periodSeconds: 60
+            timeoutSeconds: 15
+            failureThreshold: 5
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "2Gi"
+              cpu: "2"
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: shared-postgres-pvc
+        - name: init
+          configMap:
+            name: shared-postgres-init
+            defaultMode: 0755
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shared-postgres
+  namespace: ${HOMELAB_NAMESPACE}
+spec:
+  clusterIP: None       # headless — accessed by DNS
+  selector:
+    app: shared-postgres
+  ports:
+    - port: 5432
+      targetPort: postgres
+      name: postgres
