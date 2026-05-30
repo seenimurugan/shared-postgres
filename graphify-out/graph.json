@@ -1,0 +1,2849 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "setup-graph.sh",
+      "file_type": "code",
+      "source_file": "setup-graph.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "setup_graph_sh",
+      "community": 30,
+      "norm_label": "setup-graph.sh"
+    },
+    {
+      "label": "setup-graph.sh script",
+      "file_type": "code",
+      "source_file": "setup-graph.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_nila_developer_apps_shared_postgres_setup_graph_sh__entry",
+      "community": 30,
+      "norm_label": "setup-graph.sh script"
+    },
+    {
+      "label": ".opencode.json",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L1",
+      "id": "opencode_json",
+      "community": 3,
+      "norm_label": ".opencode.json"
+    },
+    {
+      "label": "mcpServers",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L2",
+      "id": "shared_postgres_opencode_mcpservers",
+      "community": 3,
+      "norm_label": "mcpservers"
+    },
+    {
+      "label": "code-review-graph",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L3",
+      "id": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "community": 3,
+      "norm_label": "code-review-graph"
+    },
+    {
+      "label": "command",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L4",
+      "id": "shared_postgres_opencode_code_review_graph_command",
+      "community": 3,
+      "norm_label": "command"
+    },
+    {
+      "label": "args",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L5",
+      "id": "shared_postgres_opencode_code_review_graph_args",
+      "community": 3,
+      "norm_label": "args"
+    },
+    {
+      "label": "cwd",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L10",
+      "id": "shared_postgres_opencode_code_review_graph_cwd",
+      "community": 3,
+      "norm_label": "cwd"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L11",
+      "id": "shared_postgres_opencode_code_review_graph_type",
+      "community": 3,
+      "norm_label": "type"
+    },
+    {
+      "label": "env",
+      "file_type": "code",
+      "source_file": ".opencode.json",
+      "source_location": "L12",
+      "id": "shared_postgres_opencode_code_review_graph_env",
+      "community": 3,
+      "norm_label": "env"
+    },
+    {
+      "label": "undeploy.sh",
+      "file_type": "code",
+      "source_file": "undeploy.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "undeploy_sh",
+      "community": 28,
+      "norm_label": "undeploy.sh"
+    },
+    {
+      "label": "undeploy.sh script",
+      "file_type": "code",
+      "source_file": "undeploy.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_nila_developer_apps_shared_postgres_undeploy_sh__entry",
+      "community": 28,
+      "norm_label": "undeploy.sh script"
+    },
+    {
+      "label": ".mcp.json",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_config_file"
+      },
+      "id": "mcp_json",
+      "community": 24,
+      "norm_label": ".mcp.json"
+    },
+    {
+      "label": "code-review-graph",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_server"
+      },
+      "id": "shared_postgres_mcp_mcp_server_code_review_graph",
+      "community": 24,
+      "norm_label": "code-review-graph"
+    },
+    {
+      "label": "/Users/nila/.local/pipx/venvs/code-review-graph/bin/python",
+      "file_type": "code",
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_command"
+      },
+      "id": "mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python",
+      "community": 24,
+      "norm_label": "/users/nila/.local/pipx/venvs/code-review-graph/bin/python"
+    },
+    {
+      "label": "deploy.sh",
+      "file_type": "code",
+      "source_file": "deploy.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "deploy_sh",
+      "community": 26,
+      "norm_label": "deploy.sh"
+    },
+    {
+      "label": "deploy.sh script",
+      "file_type": "code",
+      "source_file": "deploy.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_nila_developer_apps_shared_postgres_deploy_sh__entry",
+      "community": 26,
+      "norm_label": "deploy.sh script"
+    },
+    {
+      "label": "mcp.json",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_config_file"
+      },
+      "id": "cursor_mcp_json",
+      "community": 23,
+      "norm_label": "mcp.json"
+    },
+    {
+      "label": "code-review-graph",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_server"
+      },
+      "id": "cursor_mcp_mcp_server_code_review_graph",
+      "community": 23,
+      "norm_label": "code-review-graph"
+    },
+    {
+      "label": "/Users/nila/.local/pipx/venvs/code-review-graph/bin/python",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_command"
+      },
+      "id": "cursor_mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python",
+      "community": 23,
+      "norm_label": "/users/nila/.local/pipx/venvs/code-review-graph/bin/python"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L1",
+      "id": "gemini_settings_json",
+      "community": 21,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L2",
+      "id": "gemini_settings_hooks",
+      "community": 21,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "SessionStart",
+      "file_type": "code",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L3",
+      "id": "gemini_settings_hooks_sessionstart",
+      "community": 21,
+      "norm_label": "sessionstart"
+    },
+    {
+      "label": "AfterTool",
+      "file_type": "code",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L16",
+      "id": "gemini_settings_hooks_aftertool",
+      "community": 21,
+      "norm_label": "aftertool"
+    },
+    {
+      "label": "crg-update.sh",
+      "file_type": "code",
+      "source_file": ".gemini/hooks/crg-update.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "gemini_hooks_crg_update_sh",
+      "community": 29,
+      "norm_label": "crg-update.sh"
+    },
+    {
+      "label": "crg-update.sh script",
+      "file_type": "code",
+      "source_file": ".gemini/hooks/crg-update.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_nila_developer_apps_shared_postgres_gemini_hooks_crg_update_sh__entry",
+      "community": 29,
+      "norm_label": "crg-update.sh script"
+    },
+    {
+      "label": "crg-session-start.sh",
+      "file_type": "code",
+      "source_file": ".gemini/hooks/crg-session-start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "gemini_hooks_crg_session_start_sh",
+      "community": 27,
+      "norm_label": "crg-session-start.sh"
+    },
+    {
+      "label": "crg-session-start.sh script",
+      "file_type": "code",
+      "source_file": ".gemini/hooks/crg-session-start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "users_nila_developer_apps_shared_postgres_gemini_hooks_crg_session_start_sh__entry",
+      "community": 27,
+      "norm_label": "crg-session-start.sh script"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L1",
+      "id": "qoder_settings_json",
+      "community": 22,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L2",
+      "id": "qoder_settings_hooks",
+      "community": 22,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PostToolUse",
+      "file_type": "code",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L3",
+      "id": "qoder_settings_hooks_posttooluse",
+      "community": 22,
+      "norm_label": "posttooluse"
+    },
+    {
+      "label": "SessionStart",
+      "file_type": "code",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L15",
+      "id": "qoder_settings_hooks_sessionstart",
+      "community": 22,
+      "norm_label": "sessionstart"
+    },
+    {
+      "label": "mcp.json",
+      "file_type": "code",
+      "source_file": ".qoder/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_config_file"
+      },
+      "id": "qoder_mcp_json",
+      "community": 25,
+      "norm_label": "mcp.json"
+    },
+    {
+      "label": "code-review-graph",
+      "file_type": "code",
+      "source_file": ".qoder/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_server"
+      },
+      "id": "qoder_mcp_mcp_server_code_review_graph",
+      "community": 25,
+      "norm_label": "code-review-graph"
+    },
+    {
+      "label": "/Users/nila/.local/pipx/venvs/code-review-graph/bin/python",
+      "file_type": "code",
+      "source_file": ".qoder/mcp.json",
+      "source_location": "L1",
+      "metadata": {
+        "mcp_kind": "mcp_command"
+      },
+      "id": "qoder_mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python",
+      "community": 25,
+      "norm_label": "/users/nila/.local/pipx/venvs/code-review-graph/bin/python"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings_json",
+      "community": 20,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_hooks",
+      "community": 20,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "PostToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_hooks_posttooluse",
+      "community": 20,
+      "norm_label": "posttooluse"
+    },
+    {
+      "label": "SessionStart",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L15",
+      "id": "claude_settings_hooks_sessionstart",
+      "community": 20,
+      "norm_label": "sessionstart"
+    },
+    {
+      "label": "QODER.md",
+      "file_type": "document",
+      "source_file": "QODER.md",
+      "source_location": "L1",
+      "id": "qoder_md",
+      "community": 19,
+      "norm_label": "qoder.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": "QODER.md",
+      "source_location": "L2",
+      "id": "shared_postgres_qoder_mcp_tools_code_review_graph",
+      "community": 19,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": "QODER.md",
+      "source_location": "L10",
+      "id": "shared_postgres_qoder_when_to_use_graph_tools_first",
+      "community": 19,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": "QODER.md",
+      "source_location": "L20",
+      "id": "shared_postgres_qoder_key_tools",
+      "community": 19,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "QODER.md",
+      "source_location": "L33",
+      "id": "shared_postgres_qoder_workflow",
+      "community": 19,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "shared-postgres",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "shared_postgres_readme_shared_postgres",
+      "community": 4,
+      "norm_label": "shared-postgres"
+    },
+    {
+      "label": "Depends on",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "shared_postgres_readme_depends_on",
+      "community": 4,
+      "norm_label": "depends on"
+    },
+    {
+      "label": "Quick start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "shared_postgres_readme_quick_start",
+      "community": 4,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "Access",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "id": "shared_postgres_readme_access",
+      "community": 4,
+      "norm_label": "access"
+    },
+    {
+      "label": "Databases",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "shared_postgres_readme_databases",
+      "community": 4,
+      "norm_label": "databases"
+    },
+    {
+      "label": "Tear down",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "shared_postgres_readme_tear_down",
+      "community": 4,
+      "norm_label": "tear down"
+    },
+    {
+      "label": "Docs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "id": "shared_postgres_readme_docs",
+      "community": 4,
+      "norm_label": "docs"
+    },
+    {
+      "label": "GEMINI.md",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L1",
+      "id": "gemini_md",
+      "community": 18,
+      "norm_label": "gemini.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L2",
+      "id": "shared_postgres_gemini_mcp_tools_code_review_graph",
+      "community": 18,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L10",
+      "id": "shared_postgres_gemini_when_to_use_graph_tools_first",
+      "community": 18,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L20",
+      "id": "shared_postgres_gemini_key_tools",
+      "community": 18,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L33",
+      "id": "shared_postgres_gemini_workflow",
+      "community": 18,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 16,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "id": "shared_postgres_agents_mcp_tools_code_review_graph",
+      "community": 16,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L10",
+      "id": "shared_postgres_agents_when_to_use_graph_tools_first",
+      "community": 16,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L20",
+      "id": "shared_postgres_agents_key_tools",
+      "community": 16,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "id": "shared_postgres_agents_workflow",
+      "community": 16,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 17,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "id": "shared_postgres_claude_mcp_tools_code_review_graph",
+      "community": 17,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "id": "shared_postgres_claude_when_to_use_graph_tools_first",
+      "community": 17,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L20",
+      "id": "shared_postgres_claude_key_tools",
+      "community": 17,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "id": "shared_postgres_claude_workflow",
+      "community": 17,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L1",
+      "id": "gemini_skills_debug_issue_skill_md",
+      "community": 10,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Debug Issue",
+      "file_type": "document",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L6",
+      "id": "gemini_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "community": 10,
+      "norm_label": "debug issue"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L10",
+      "id": "gemini_skills_debug_issue_skill_md_debug_issue_skill_steps",
+      "community": 10,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Tips",
+      "file_type": "document",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L18",
+      "id": "gemini_skills_debug_issue_skill_md_debug_issue_skill_tips",
+      "community": 10,
+      "norm_label": "tips"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L24",
+      "id": "gemini_skills_debug_issue_skill_md_debug_issue_skill_token_efficiency_rules",
+      "community": 10,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L1",
+      "id": "gemini_skills_refactor_safely_skill_md",
+      "community": 12,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Refactor Safely",
+      "file_type": "document",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L6",
+      "id": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "community": 12,
+      "norm_label": "refactor safely"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L10",
+      "id": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_steps",
+      "community": 12,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Safety Checks",
+      "file_type": "document",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L18",
+      "id": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_safety_checks",
+      "community": 12,
+      "norm_label": "safety checks"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L25",
+      "id": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_token_efficiency_rules",
+      "community": 12,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L1",
+      "id": "gemini_skills_explore_codebase_skill_md",
+      "community": 11,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Explore Codebase",
+      "file_type": "document",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L6",
+      "id": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "community": 11,
+      "norm_label": "explore codebase"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L10",
+      "id": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_steps",
+      "community": 11,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Tips",
+      "file_type": "document",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L19",
+      "id": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_tips",
+      "community": 11,
+      "norm_label": "tips"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L25",
+      "id": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_token_efficiency_rules",
+      "community": 11,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L1",
+      "id": "gemini_skills_review_changes_skill_md",
+      "community": 13,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Review Changes",
+      "file_type": "document",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L6",
+      "id": "gemini_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "community": 13,
+      "norm_label": "review changes"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L10",
+      "id": "gemini_skills_review_changes_skill_md_review_changes_skill_steps",
+      "community": 13,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Output Format",
+      "file_type": "document",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L18",
+      "id": "gemini_skills_review_changes_skill_md_review_changes_skill_output_format",
+      "community": 13,
+      "norm_label": "output format"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L26",
+      "id": "gemini_skills_review_changes_skill_md_review_changes_skill_token_efficiency_rules",
+      "community": 13,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "skill.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L1",
+      "id": "claude_skills_debug_issue_skill_md",
+      "community": 6,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Debug Issue",
+      "file_type": "document",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L6",
+      "id": "claude_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "community": 6,
+      "norm_label": "debug issue"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L10",
+      "id": "claude_skills_debug_issue_skill_md_debug_issue_skill_steps",
+      "community": 6,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Tips",
+      "file_type": "document",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L18",
+      "id": "claude_skills_debug_issue_skill_md_debug_issue_skill_tips",
+      "community": 6,
+      "norm_label": "tips"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L24",
+      "id": "claude_skills_debug_issue_skill_md_debug_issue_skill_token_efficiency_rules",
+      "community": 6,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "skill.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L1",
+      "id": "claude_skills_refactor_safely_skill_md",
+      "community": 8,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Refactor Safely",
+      "file_type": "document",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L6",
+      "id": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "community": 8,
+      "norm_label": "refactor safely"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L10",
+      "id": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_steps",
+      "community": 8,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Safety Checks",
+      "file_type": "document",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L18",
+      "id": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_safety_checks",
+      "community": 8,
+      "norm_label": "safety checks"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L25",
+      "id": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_token_efficiency_rules",
+      "community": 8,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "skill.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L1",
+      "id": "claude_skills_explore_codebase_skill_md",
+      "community": 7,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Explore Codebase",
+      "file_type": "document",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L6",
+      "id": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "community": 7,
+      "norm_label": "explore codebase"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L10",
+      "id": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_steps",
+      "community": 7,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Tips",
+      "file_type": "document",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L19",
+      "id": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_tips",
+      "community": 7,
+      "norm_label": "tips"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L25",
+      "id": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_token_efficiency_rules",
+      "community": 7,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "skill.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L1",
+      "id": "claude_skills_review_changes_skill_md",
+      "community": 9,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Review Changes",
+      "file_type": "document",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L6",
+      "id": "claude_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "community": 9,
+      "norm_label": "review changes"
+    },
+    {
+      "label": "Steps",
+      "file_type": "document",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L10",
+      "id": "claude_skills_review_changes_skill_md_review_changes_skill_steps",
+      "community": 9,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Output Format",
+      "file_type": "document",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L18",
+      "id": "claude_skills_review_changes_skill_md_review_changes_skill_output_format",
+      "community": 9,
+      "norm_label": "output format"
+    },
+    {
+      "label": "Token Efficiency Rules",
+      "file_type": "document",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L26",
+      "id": "claude_skills_review_changes_skill_md_review_changes_skill_token_efficiency_rules",
+      "community": 9,
+      "norm_label": "token efficiency rules"
+    },
+    {
+      "label": "ARCHITECTURE.md",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "docs_architecture_md",
+      "community": 1,
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "Shared Postgres \u2014 Architecture & Tech Stack",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "id": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "community": 1,
+      "norm_label": "shared postgres \u2014 architecture & tech stack"
+    },
+    {
+      "label": "What is it",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L3",
+      "id": "docs_architecture_what_is_it",
+      "community": 1,
+      "norm_label": "what is it"
+    },
+    {
+      "label": "Tech stack",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L9",
+      "id": "docs_architecture_tech_stack",
+      "community": 1,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Source code",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L21",
+      "id": "docs_architecture_source_code",
+      "community": 1,
+      "norm_label": "source code"
+    },
+    {
+      "label": "Local config files",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L31",
+      "id": "docs_architecture_local_config_files",
+      "community": 1,
+      "norm_label": "local config files"
+    },
+    {
+      "label": "Data layout",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L38",
+      "id": "docs_architecture_data_layout",
+      "community": 1,
+      "norm_label": "data layout"
+    },
+    {
+      "label": "Schema namespace",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L52",
+      "id": "docs_architecture_schema_namespace",
+      "community": 1,
+      "norm_label": "schema namespace"
+    },
+    {
+      "label": "Design decisions",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L62",
+      "id": "docs_architecture_design_decisions",
+      "community": 1,
+      "norm_label": "design decisions"
+    },
+    {
+      "label": "Why both immich-postgres AND shared-postgres exist",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L71",
+      "id": "docs_architecture_why_both_immich_postgres_and_shared_postgres_exist",
+      "community": 1,
+      "norm_label": "why both immich-postgres and shared-postgres exist"
+    },
+    {
+      "label": "Reference",
+      "file_type": "document",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L79",
+      "id": "docs_architecture_reference",
+      "community": 1,
+      "norm_label": "reference"
+    },
+    {
+      "label": "USAGE.md",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L1",
+      "id": "docs_usage_md",
+      "community": 2,
+      "norm_label": "usage.md"
+    },
+    {
+      "label": "Shared Postgres \u2014 Usage",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L1",
+      "id": "docs_usage_shared_postgres_usage",
+      "community": 2,
+      "norm_label": "shared postgres \u2014 usage"
+    },
+    {
+      "label": "Wire an app pod to this Postgres",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L5",
+      "id": "docs_usage_wire_an_app_pod_to_this_postgres",
+      "community": 2,
+      "norm_label": "wire an app pod to this postgres"
+    },
+    {
+      "label": "Access from the Mac",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L33",
+      "id": "docs_usage_access_from_the_mac",
+      "community": 2,
+      "norm_label": "access from the mac"
+    },
+    {
+      "label": "Run a query",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L35",
+      "id": "docs_usage_run_a_query",
+      "community": 2,
+      "norm_label": "run a query"
+    },
+    {
+      "label": "Interactive shell",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L40",
+      "id": "docs_usage_interactive_shell",
+      "community": 2,
+      "norm_label": "interactive shell"
+    },
+    {
+      "label": "From a GUI tool (TablePlus, DBeaver, pgAdmin)",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L45",
+      "id": "docs_usage_from_a_gui_tool_tableplus_dbeaver_pgadmin",
+      "community": 2,
+      "norm_label": "from a gui tool (tableplus, dbeaver, pgadmin)"
+    },
+    {
+      "label": "Add a new database for a new app",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L52",
+      "id": "docs_usage_add_a_new_database_for_a_new_app",
+      "community": 2,
+      "norm_label": "add a new database for a new app"
+    },
+    {
+      "label": "Disk usage per DB",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L75",
+      "id": "docs_usage_disk_usage_per_db",
+      "community": 2,
+      "norm_label": "disk usage per db"
+    },
+    {
+      "label": "Common SQL recipes",
+      "file_type": "document",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L84",
+      "id": "docs_usage_common_sql_recipes",
+      "community": 2,
+      "norm_label": "common sql recipes"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L1",
+      "id": "docs_readme_md",
+      "community": 5,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Shared Postgres",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L1",
+      "id": "docs_readme_shared_postgres",
+      "community": 5,
+      "norm_label": "shared postgres"
+    },
+    {
+      "label": "Access",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L5",
+      "id": "docs_readme_access",
+      "community": 5,
+      "norm_label": "access"
+    },
+    {
+      "label": "Databases on this instance",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L13",
+      "id": "docs_readme_databases_on_this_instance",
+      "community": 5,
+      "norm_label": "databases on this instance"
+    },
+    {
+      "label": "Detailed docs",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L20",
+      "id": "docs_readme_detailed_docs",
+      "community": 5,
+      "norm_label": "detailed docs"
+    },
+    {
+      "label": "Quick start: a new app needs a DB",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "source_location": "L26",
+      "id": "docs_readme_quick_start_a_new_app_needs_a_db",
+      "community": 5,
+      "norm_label": "quick start: a new app needs a db"
+    },
+    {
+      "label": "MAINTENANCE.md",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L1",
+      "id": "docs_maintenance_md",
+      "community": 0,
+      "norm_label": "maintenance.md"
+    },
+    {
+      "label": "Shared Postgres \u2014 Maintenance",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L1",
+      "id": "docs_maintenance_shared_postgres_maintenance",
+      "community": 0,
+      "norm_label": "shared postgres \u2014 maintenance"
+    },
+    {
+      "label": "Credentials",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L3",
+      "id": "docs_maintenance_credentials",
+      "community": 0,
+      "norm_label": "credentials"
+    },
+    {
+      "label": "Reveal live values",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L16",
+      "id": "docs_maintenance_reveal_live_values",
+      "community": 0,
+      "norm_label": "reveal live values"
+    },
+    {
+      "label": "Change a password",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L22",
+      "id": "docs_maintenance_change_a_password",
+      "community": 0,
+      "norm_label": "change a password"
+    },
+    {
+      "label": "Common operations",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L37",
+      "id": "docs_maintenance_common_operations",
+      "community": 0,
+      "norm_label": "common operations"
+    },
+    {
+      "label": "Restart Postgres",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L39",
+      "id": "docs_maintenance_restart_postgres",
+      "community": 0,
+      "norm_label": "restart postgres"
+    },
+    {
+      "label": "Logs",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L45",
+      "id": "docs_maintenance_logs",
+      "community": 0,
+      "norm_label": "logs"
+    },
+    {
+      "label": "Pod status",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L50",
+      "id": "docs_maintenance_pod_status",
+      "community": 0,
+      "norm_label": "pod status"
+    },
+    {
+      "label": "Storage usage",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L55",
+      "id": "docs_maintenance_storage_usage",
+      "community": 0,
+      "norm_label": "storage usage"
+    },
+    {
+      "label": "Backup",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L60",
+      "id": "docs_maintenance_backup",
+      "community": 0,
+      "norm_label": "backup"
+    },
+    {
+      "label": "Restore",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L77",
+      "id": "docs_maintenance_restore",
+      "community": 0,
+      "norm_label": "restore"
+    },
+    {
+      "label": "Upgrade Postgres major version",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L89",
+      "id": "docs_maintenance_upgrade_postgres_major_version",
+      "community": 0,
+      "norm_label": "upgrade postgres major version"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L105",
+      "id": "docs_maintenance_troubleshooting",
+      "community": 0,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "App can't connect",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L107",
+      "id": "docs_maintenance_app_can_t_connect",
+      "community": 0,
+      "norm_label": "app can't connect"
+    },
+    {
+      "label": "Postgres pod won't start",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L117",
+      "id": "docs_maintenance_postgres_pod_won_t_start",
+      "community": 0,
+      "norm_label": "postgres pod won't start"
+    },
+    {
+      "label": "Pod restarts",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L127",
+      "id": "docs_maintenance_pod_restarts",
+      "community": 0,
+      "norm_label": "pod restarts"
+    },
+    {
+      "label": "DNS resolution from app fails",
+      "file_type": "document",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L130",
+      "id": "docs_maintenance_dns_resolution_from_app_fails",
+      "community": 0,
+      "norm_label": "dns resolution from app fails"
+    },
+    {
+      "label": "code-review-graph.instruction.md",
+      "file_type": "document",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L1",
+      "id": "github_code_review_graph_instruction_md",
+      "community": 14,
+      "norm_label": "code-review-graph.instruction.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L9",
+      "id": "github_code_review_graph_instruction_mcp_tools_code_review_graph",
+      "community": 14,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L17",
+      "id": "github_code_review_graph_instruction_when_to_use_graph_tools_first",
+      "community": 14,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L28",
+      "id": "github_code_review_graph_instruction_key_tools",
+      "community": 14,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L41",
+      "id": "github_code_review_graph_instruction_workflow",
+      "community": 14,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "code-review-graph.md",
+      "file_type": "document",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L1",
+      "id": "kiro_steering_code_review_graph_md",
+      "community": 15,
+      "norm_label": "code-review-graph.md"
+    },
+    {
+      "label": "MCP Tools: code-review-graph",
+      "file_type": "document",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L2",
+      "id": "steering_code_review_graph_mcp_tools_code_review_graph",
+      "community": 15,
+      "norm_label": "mcp tools: code-review-graph"
+    },
+    {
+      "label": "When to use graph tools FIRST",
+      "file_type": "document",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L10",
+      "id": "steering_code_review_graph_when_to_use_graph_tools_first",
+      "community": 15,
+      "norm_label": "when to use graph tools first"
+    },
+    {
+      "label": "Key Tools",
+      "file_type": "document",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L20",
+      "id": "steering_code_review_graph_key_tools",
+      "community": 15,
+      "norm_label": "key tools"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L33",
+      "id": "steering_code_review_graph_workflow",
+      "community": 15,
+      "norm_label": "workflow"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup-graph.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "setup_graph_sh",
+      "target": "users_nila_developer_apps_shared_postgres_setup_graph_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "opencode_json",
+      "target": "shared_postgres_opencode_mcpservers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers",
+      "target": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "target": "shared_postgres_opencode_code_review_graph_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "target": "shared_postgres_opencode_code_review_graph_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "target": "shared_postgres_opencode_code_review_graph_cwd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "target": "shared_postgres_opencode_code_review_graph_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "shared_postgres_opencode_mcpservers_code_review_graph",
+      "target": "shared_postgres_opencode_code_review_graph_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "undeploy.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "undeploy_sh",
+      "target": "users_nila_developer_apps_shared_postgres_undeploy_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mcp_json",
+      "target": "shared_postgres_mcp_mcp_server_code_review_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "command",
+      "source": "shared_postgres_mcp_mcp_server_code_review_graph",
+      "target": "mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "deploy_sh",
+      "target": "users_nila_developer_apps_shared_postgres_deploy_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "cursor_mcp_json",
+      "target": "cursor_mcp_mcp_server_code_review_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "command",
+      "source": "cursor_mcp_mcp_server_code_review_graph",
+      "target": "cursor_mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "gemini_settings_json",
+      "target": "gemini_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "gemini_settings_hooks",
+      "target": "gemini_settings_hooks_aftertool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "gemini_settings_hooks",
+      "target": "gemini_settings_hooks_sessionstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/hooks/crg-update.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gemini_hooks_crg_update_sh",
+      "target": "users_nila_developer_apps_shared_postgres_gemini_hooks_crg_update_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/hooks/crg-session-start.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gemini_hooks_crg_session_start_sh",
+      "target": "users_nila_developer_apps_shared_postgres_gemini_hooks_crg_session_start_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "qoder_settings_json",
+      "target": "qoder_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "qoder_settings_hooks",
+      "target": "qoder_settings_hooks_posttooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".qoder/settings.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "qoder_settings_hooks",
+      "target": "qoder_settings_hooks_sessionstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".qoder/mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "qoder_mcp_json",
+      "target": "qoder_mcp_mcp_server_code_review_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".qoder/mcp.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "command",
+      "source": "qoder_mcp_mcp_server_code_review_graph",
+      "target": "qoder_mcp_json_mcp_command_users_nila_local_pipx_venvs_code_review_graph_bin_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_posttooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_sessionstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "QODER.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "qoder_md",
+      "target": "shared_postgres_qoder_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "QODER.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "shared_postgres_qoder_mcp_tools_code_review_graph",
+      "target": "shared_postgres_qoder_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "QODER.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "shared_postgres_qoder_mcp_tools_code_review_graph",
+      "target": "shared_postgres_qoder_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "QODER.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "shared_postgres_qoder_mcp_tools_code_review_graph",
+      "target": "shared_postgres_qoder_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "shared_postgres_readme_shared_postgres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_access",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_databases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_depends_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "shared_postgres_readme_shared_postgres",
+      "target": "shared_postgres_readme_tear_down",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "gemini_md",
+      "target": "shared_postgres_gemini_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "shared_postgres_gemini_mcp_tools_code_review_graph",
+      "target": "shared_postgres_gemini_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "shared_postgres_gemini_mcp_tools_code_review_graph",
+      "target": "shared_postgres_gemini_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "shared_postgres_gemini_mcp_tools_code_review_graph",
+      "target": "shared_postgres_gemini_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "shared_postgres_agents_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "shared_postgres_agents_mcp_tools_code_review_graph",
+      "target": "shared_postgres_agents_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "shared_postgres_agents_mcp_tools_code_review_graph",
+      "target": "shared_postgres_agents_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "shared_postgres_agents_mcp_tools_code_review_graph",
+      "target": "shared_postgres_agents_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "shared_postgres_claude_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "shared_postgres_claude_mcp_tools_code_review_graph",
+      "target": "shared_postgres_claude_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "shared_postgres_claude_mcp_tools_code_review_graph",
+      "target": "shared_postgres_claude_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "shared_postgres_claude_mcp_tools_code_review_graph",
+      "target": "shared_postgres_claude_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gemini_skills_debug_issue_skill_md",
+      "target": "gemini_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "gemini_skills_debug_issue_skill_md",
+      "target": "gemini_skills_debug_issue_skill_md_debug_issue_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gemini_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "target": "gemini_skills_debug_issue_skill_md_debug_issue_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/debug-issue/SKILL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "gemini_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "target": "gemini_skills_debug_issue_skill_md_debug_issue_skill_tips",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gemini_skills_refactor_safely_skill_md",
+      "target": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "gemini_skills_refactor_safely_skill_md",
+      "target": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "target": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_safety_checks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/refactor-safely/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "target": "gemini_skills_refactor_safely_skill_md_refactor_safely_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gemini_skills_explore_codebase_skill_md",
+      "target": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "gemini_skills_explore_codebase_skill_md",
+      "target": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "target": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/explore-codebase/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "target": "gemini_skills_explore_codebase_skill_md_explore_codebase_skill_tips",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gemini_skills_review_changes_skill_md",
+      "target": "gemini_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "gemini_skills_review_changes_skill_md",
+      "target": "gemini_skills_review_changes_skill_md_review_changes_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "gemini_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "target": "gemini_skills_review_changes_skill_md_review_changes_skill_output_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/review-changes/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gemini_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "target": "gemini_skills_review_changes_skill_md_review_changes_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_debug_issue_skill_md",
+      "target": "claude_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "claude_skills_debug_issue_skill_md",
+      "target": "claude_skills_debug_issue_skill_md_debug_issue_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "target": "claude_skills_debug_issue_skill_md_debug_issue_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/debug-issue/skill.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_skills_debug_issue_skill_md_debug_issue_skill_debug_issue",
+      "target": "claude_skills_debug_issue_skill_md_debug_issue_skill_tips",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_refactor_safely_skill_md",
+      "target": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_skills_refactor_safely_skill_md",
+      "target": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "target": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_safety_checks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/refactor-safely/skill.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_refactor_safely",
+      "target": "claude_skills_refactor_safely_skill_md_refactor_safely_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_explore_codebase_skill_md",
+      "target": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_skills_explore_codebase_skill_md",
+      "target": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "target": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/explore-codebase/skill.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_explore_codebase",
+      "target": "claude_skills_explore_codebase_skill_md_explore_codebase_skill_tips",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_review_changes_skill_md",
+      "target": "claude_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "claude_skills_review_changes_skill_md",
+      "target": "claude_skills_review_changes_skill_md_review_changes_skill_token_efficiency_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "target": "claude_skills_review_changes_skill_md_review_changes_skill_output_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/review-changes/skill.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_review_changes_skill_md_review_changes_skill_review_changes",
+      "target": "claude_skills_review_changes_skill_md_review_changes_skill_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_md",
+      "target": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_data_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_local_config_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_schema_namespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_source_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_what_is_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_architecture_shared_postgres_architecture_tech_stack",
+      "target": "docs_architecture_why_both_immich_postgres_and_shared_postgres_exist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_usage_md",
+      "target": "docs_usage_shared_postgres_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_usage_shared_postgres_usage",
+      "target": "docs_usage_access_from_the_mac",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_usage_shared_postgres_usage",
+      "target": "docs_usage_add_a_new_database_for_a_new_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "docs_usage_shared_postgres_usage",
+      "target": "docs_usage_common_sql_recipes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_usage_shared_postgres_usage",
+      "target": "docs_usage_disk_usage_per_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_usage_shared_postgres_usage",
+      "target": "docs_usage_wire_an_app_pod_to_this_postgres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_usage_access_from_the_mac",
+      "target": "docs_usage_from_a_gui_tool_tableplus_dbeaver_pgadmin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_usage_access_from_the_mac",
+      "target": "docs_usage_interactive_shell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/USAGE.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_usage_access_from_the_mac",
+      "target": "docs_usage_run_a_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_readme_md",
+      "target": "docs_readme_shared_postgres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_readme_shared_postgres",
+      "target": "docs_readme_access",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_readme_shared_postgres",
+      "target": "docs_readme_databases_on_this_instance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_readme_shared_postgres",
+      "target": "docs_readme_detailed_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_readme_shared_postgres",
+      "target": "docs_readme_quick_start_a_new_app_needs_a_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_maintenance_md",
+      "target": "docs_maintenance_shared_postgres_maintenance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_backup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_common_operations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_credentials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_restore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "docs_maintenance_shared_postgres_maintenance",
+      "target": "docs_maintenance_upgrade_postgres_major_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_maintenance_credentials",
+      "target": "docs_maintenance_change_a_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_maintenance_credentials",
+      "target": "docs_maintenance_reveal_live_values",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_maintenance_common_operations",
+      "target": "docs_maintenance_logs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_maintenance_common_operations",
+      "target": "docs_maintenance_pod_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_maintenance_common_operations",
+      "target": "docs_maintenance_restart_postgres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_maintenance_common_operations",
+      "target": "docs_maintenance_storage_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "docs_maintenance_troubleshooting",
+      "target": "docs_maintenance_app_can_t_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "docs_maintenance_troubleshooting",
+      "target": "docs_maintenance_dns_resolution_from_app_fails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "docs_maintenance_troubleshooting",
+      "target": "docs_maintenance_pod_restarts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MAINTENANCE.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_maintenance_troubleshooting",
+      "target": "docs_maintenance_postgres_pod_won_t_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "github_code_review_graph_instruction_md",
+      "target": "github_code_review_graph_instruction_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "github_code_review_graph_instruction_mcp_tools_code_review_graph",
+      "target": "github_code_review_graph_instruction_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "github_code_review_graph_instruction_mcp_tools_code_review_graph",
+      "target": "github_code_review_graph_instruction_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/code-review-graph.instruction.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "github_code_review_graph_instruction_mcp_tools_code_review_graph",
+      "target": "github_code_review_graph_instruction_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "kiro_steering_code_review_graph_md",
+      "target": "steering_code_review_graph_mcp_tools_code_review_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "steering_code_review_graph_mcp_tools_code_review_graph",
+      "target": "steering_code_review_graph_key_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "steering_code_review_graph_mcp_tools_code_review_graph",
+      "target": "steering_code_review_graph_when_to_use_graph_tools_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kiro/steering/code-review-graph.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "steering_code_review_graph_mcp_tools_code_review_graph",
+      "target": "steering_code_review_graph_workflow",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "65c4fe02292e31a7a470ed6ea43ae46bef7409e5"
+}
