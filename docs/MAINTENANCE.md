@@ -1,5 +1,7 @@
 # Shared Postgres — Maintenance
 
+**On this page:** [Credentials](#credentials) · [Common operations](#common-operations) · [Backup](#backup) · [Restore](#restore) · [Upgrade Postgres major version](#upgrade-postgres-major-version) · [Troubleshooting](#troubleshooting)
+
 ## Credentials
 
 All in Secret `shared-postgres-secret` (namespace `homelab`).

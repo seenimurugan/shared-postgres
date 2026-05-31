@@ -4,6 +4,8 @@ PostgreSQL 17 StatefulSet shared by the homelab's custom apps (chores, email mat
 
 Source: `/Users/nila/Developer/apps/shared-postgres/`
 
+**On this page:** [Access](#access) · [What it does](#what-it-does) · [Databases on this instance](#databases-on-this-instance) · [Stack & framework](#stack--framework) · [Storage](#storage) · [See also](#see-also) · [Quick start: a new app needs a DB](#quick-start-a-new-app-needs-a-db) · [File reference](#file-reference)
+
 ---
 
 ## Access
