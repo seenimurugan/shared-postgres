@@ -1,5 +1,18 @@
 # Shared Postgres — Architecture & Tech Stack
 
+## Deployment diagram
+
+```mermaid
+graph TD
+    A[chores-backend] -->|JDBC port 5432| P[shared-postgres Pod\nPostgreSQL 17-alpine]
+    B[emailmatrix] -->|JDBC port 5432| P
+    C[reminders-backend] -->|JDBC port 5432| P
+    D[storage-console-backend] -->|JDBC port 5432| P
+    E[moviesda] -->|JDBC port 5432| P
+    P --> PVC[shared-postgres-pvc\n20 Gi local-path ext4]
+    P -.->|headless ClusterIP\nshared-postgres.homelab.svc.cluster.local:5432| DNS[Cluster DNS]
+```
+
 ## What is it
 
 A vanilla PostgreSQL 17 StatefulSet shared by custom homelab apps (kids tasks, email matrix, future apps). Each app gets its own database and user inside this one instance.
