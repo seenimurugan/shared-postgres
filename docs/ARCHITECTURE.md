@@ -1,5 +1,7 @@
 # Shared Postgres — Architecture & Tech Stack
 
+**On this page:** [Deployment diagram](#deployment-diagram) · [What is it](#what-is-it) · [Tech stack](#tech-stack) · [Source code](#source-code) · [Local config files](#local-config-files) · [Data layout](#data-layout) · [Schema namespace](#schema-namespace) · [Design decisions](#design-decisions) · [Why both immich-postgres AND shared-postgres exist](#why-both-immich-postgres-and-shared-postgres-exist) · [Reference](#reference)
+
 ## Deployment diagram
 
 ```mermaid

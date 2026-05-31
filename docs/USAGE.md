@@ -2,6 +2,8 @@
 
 How to use the shared Postgres from app pods and the Mac.
 
+**On this page:** [Wire an app pod to this Postgres](#wire-an-app-pod-to-this-postgres) · [Access from the Mac](#access-from-the-mac) · [Add a new database for a new app](#add-a-new-database-for-a-new-app) · [Disk usage per DB](#disk-usage-per-db) · [Common SQL recipes](#common-sql-recipes)
+
 ## Wire an app pod to this Postgres
 
 In your app's Deployment YAML:
