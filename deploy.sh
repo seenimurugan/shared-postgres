@@ -41,21 +41,16 @@ else
 fi
 
 # ── 4. Create / update shared-postgres-secret ────────────────────────────────
+# Owns ONLY the postgres master credentials (POSTGRES_DB / _USER / _PASSWORD)
+# consumed by the shared-postgres StatefulSet itself. Per 2026-06-01 split,
+# every app now owns its own <app>-postgres-secret and provisions it from its
+# own deploy.sh — this script no longer writes app-specific keys.
 # Passwords come from .env — never stored in the YAML.
-echo "Ensuring shared-postgres-secret..."
+echo "Ensuring shared-postgres-secret (master creds only)..."
 kubectl -n "$HOMELAB_NAMESPACE" create secret generic shared-postgres-secret \
   --from-literal=POSTGRES_DB=postgres \
   --from-literal=POSTGRES_USER=postgres \
   --from-literal=POSTGRES_PASSWORD="${POSTGRES_PASSWORD}" \
-  --from-literal=KIDSTASKS_DB=kidstasks \
-  --from-literal=KIDSTASKS_USER=kidstasks \
-  --from-literal=KIDSTASKS_PASSWORD="${KIDSTASKS_PASSWORD}" \
-  --from-literal=EMAILMATRIX_DB=emailmatrix \
-  --from-literal=EMAILMATRIX_USER=emailmatrix \
-  --from-literal=EMAILMATRIX_PASSWORD="${EMAILMATRIX_PASSWORD}" \
-  --from-literal=REMINDERS_DB=reminders \
-  --from-literal=REMINDERS_USER=reminders \
-  --from-literal=REMINDERS_PASSWORD="${REMINDERS_PASSWORD}" \
   --dry-run=client -o yaml | kubectl apply -f -
 
 # ── 5. Apply manifests via envsubst ──────────────────────────────────────────
